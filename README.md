@@ -27,7 +27,7 @@ This template is based on [Uno](https://github.com/daleanthony/Uno) a minimal, r
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-Access via: [http://localhost:4000/lorenzomonti/](http://localhost:4000/LorenzoMonti.github.io/)
+Access via: [http://localhost:4000/](http://localhost:4000/)
 
 ---
 
