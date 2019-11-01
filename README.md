@@ -1,4 +1,4 @@
-# Lorenzo Monti site
+# My site
 
 This template is based on [Uno](https://github.com/daleanthony/Uno) a minimal, responsive theme for Jekyll based on the  theme for Ghost.
 
