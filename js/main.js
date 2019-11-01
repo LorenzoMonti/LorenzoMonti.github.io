@@ -16,7 +16,7 @@ $(document).ready(function () {
     $( ".pdf-link" )
       .addClass( "visible" )
       .removeClass("hidden")
-      .append( "<a href='/lorenzomonti/assets/pdf/cv.pdf' target='_blank'>Click here to see my CV.</a>" )
+      .append( "<a href='/assets/pdf/cv.pdf' target='_blank'>Click here to see my CV.</a>" )
 
   }else{$( '.pdf-link' ).addClass('visible'); $( '.pdf-link' ).removeClass('hidden')}
 
