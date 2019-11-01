@@ -1,0 +1,20 @@
+---
+title:  "SACHER: Smart Architecture for Cultural Heritage in Emilia-Romagna"
+date:   2019-10-13 12:00:00
+categories: [projects]
+tags: [phd]
+---
+SACHER (Smart Architecture for Cultural Heritage in Emilia-Romagna) is a project for Cultural Heritage financed by Regione Emilia-Romagna within the European Regional Development Fund  (POR FESR 2014-2020).
+
+The project aims to give a fundamental contribution in the promotion and the protection of Cultural Heritage, providing the cultural institutions, the experts in conservation-restoration of cultural heritage and the public with an innovative Web-oriented ICT platform that facilitates access to the entire Cultural Heritage data life-cycle.
+
+Using a Cloud Computing environment and Active Digital Identity paradigm, SACHER will provide with a fully distributed and open source platform which will integrate hardware and software infrastructure, both public or private, actually engaged in the retention of data on the vast national Cultural Heritage.
+
+The platform will grant customizable service application which will be able to grant data access, analysis and display both to cultural heritage experts or publics and tourists.
+
+The project aims to foster the consolidation of new models of cultural business through the integration of public and private actors working within social entrepreneurship and ICTs.
+This is to create an ecosystem of services and actors capable of building new value chains in the production area and the collaborative fruition of cultural services.
+
+The validation of the SACHER platform will be carried out in collaboration with the Municipality of Bologna on Cultural Heritage within the Palazzo del Podestà area and will lead to the realization of a trial version of the final product that can be quickly transferred to the market and available in various contexts of art cities.
+
+Source code from cloud platform SACHER are totally open-source and you can find on [GitHub](https://github.com/SACHER-project){:target="_blank"}

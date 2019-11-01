@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>It's me</title>
+    <description>Computer science Ph.D. student, guitar player and espresso addicted</description>
+    <link>http://localhost:4000/lorenzomonti/</link>
+    <atom:link href="http://localhost:4000/lorenzomonti/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 20 Oct 2019 14:41:16 +0200</pubDate>
+    <lastBuildDate>Sun, 20 Oct 2019 14:41:16 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>SACHER: Smart Architecture for Cultural Heritage in Emilia-Romagna</title>
+        <description>&lt;p&gt;SACHER (Smart Architecture for Cultural Heritage in Emilia-Romagna) is a project for Cultural Heritage financed by Regione Emilia-Romagna within the European Regional Development Fund  (POR FESR 2014-2020).&lt;/p&gt;
+
+&lt;p&gt;The project aims to give a fundamental contribution in the promotion and the protection of Cultural Heritage, providing the cultural institutions, the experts in conservation-restoration of cultural heritage and the public with an innovative Web-oriented ICT platform that facilitates access to the entire Cultural Heritage data life-cycle.&lt;/p&gt;
+
+&lt;p&gt;Using a Cloud Computing environment and Active Digital Identity paradigm, SACHER will provide with a fully distributed and open source platform which will integrate hardware and software infrastructure, both public or private, actually engaged in the retention of data on the vast national Cultural Heritage.&lt;/p&gt;
+
+&lt;p&gt;The platform will grant customizable service application which will be able to grant data access, analysis and display both to cultural heritage experts or publics and tourists.&lt;/p&gt;
+
+&lt;p&gt;The project aims to foster the consolidation of new models of cultural business through the integration of public and private actors working within social entrepreneurship and ICTs.
+This is to create an ecosystem of services and actors capable of building new value chains in the production area and the collaborative fruition of cultural services.&lt;/p&gt;
+
+&lt;p&gt;The validation of the SACHER platform will be carried out in collaboration with the Municipality of Bologna on Cultural Heritage within the Palazzo del Podestà area and will lead to the realization of a trial version of the final product that can be quickly transferred to the market and available in various contexts of art cities.&lt;/p&gt;
+
+&lt;p&gt;Source code from cloud platform SACHER are totally open-source and you can find on &lt;a href=&quot;https://github.com/SACHER-project&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 13 Oct 2019 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/lorenzomonti/2019/SACHER/</link>
+        <guid isPermaLink="true">http://localhost:4000/lorenzomonti/2019/SACHER/</guid>
+        
+        <category>phd</category>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>InspectNoise: Real-time sound meter</title>
+        <description>&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+&lt;p&gt;InspectNoise is a real-time sound meter with A glance into single-board computer.
+The main idea is to have a low-budget device to monitor and analyze acoustic noise.
+To do this we used a Kinobo USB microphone named &lt;a href=&quot;https://www.amazon.co.uk/Kinobo-Microphone-Desktops-Dictation-Software/dp/B00NSOWWIS&quot;&gt;Mini AKIRO&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have also used a calibrated sound level meter and temperature, humidity, atmospheric pressure, PM10, PM2.5, PM1.0 sensors to create a dataset, and through machine learning models we have significantly improved accuracy performance (in terms of dB SPL) of the aforementioned microphone.&lt;/p&gt;
+
+&lt;p&gt;All tests are based on Raspberry Pi 2 model B.
+This projects is totally open-source (license &lt;a href=&quot;https://choosealicense.com/licenses/mit/&quot;&gt;MIT&lt;/a&gt;) and you can find the source code on &lt;a href=&quot;https://github.com/LorenzoMonti/inspectNoise&quot;&gt;GitHub&lt;/a&gt;.
+Following, the instruction step-by-step to use InspectNoise:&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;REQUIREMENTS&lt;/h2&gt;
+
+&lt;p&gt;The file requiremets.txt contains libraries that need to be installed.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;usage-and-flags&quot;&gt;Usage and FLAGS&lt;/h2&gt;
+
+&lt;p&gt;To know available flags use:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        python3 inspect_noise &lt;span class=&quot;nt&quot;&gt;--help&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Flag&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-c/ --collect&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;collect data as Min, Max and Avg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-l/--log [file]&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;log of recorded data as text file. [file] is an optional params, if not specified, program will save log on a file (name: log.log) in ~/.inspectNoise/ hidden folder&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-r/--record threshold&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;record audio when dB are on average higher than the specified threshold. Timestamp used as name of audio file.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-s/--seconds seconds&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;specify recording time&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-sh/--showindex&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;it is useful for know index of input audio devices available&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-se/--setindex index&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;used to set index of input microphone (writing on configuration file)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-f/--format [mp3, wav, ogg]&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;define format of output record. It can be used only with –record&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-to/--thrashesoutput&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;used for debug or utility, when specified permit to not show output on terminal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-ca/--calibrate&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;used to load machine learning model that try to predict db read by a calibrated phonometer. The calibration tries to predict the values read by the [UT351/352] (the calibration tries to predict the read values of the UT321 sound level meter) sound level meter&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;note&quot;&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;Please pay attention when use –calibrate flag, because, as reported in requirements.txt file, in our Raspberry the version of scikit-learn is 0.21.3, and the model was printed using the same version of this library.&lt;/p&gt;
+
+&lt;h2 id=&quot;extension&quot;&gt;Extension&lt;/h2&gt;
+
+&lt;p&gt;After first use the tool creates a hidden folder with name “.inspectNoise” in ~ (user dir).
+In this directory will be created (after using flag –record for the first time) a new
+directory with name gathered_mp3. Within this folder will be saved recorded data in sub-folder
+with date of recoded day.&lt;/p&gt;
+
+&lt;p&gt;In the project directory are included 2 more utils file.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;First is plotter.py that can be ran separately to create graphs starting from a log file
+(created with flag –log). The output will be located in “plot_data” folder, located in
+“.inspect_noise” folder.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        python3 plotter.py file.log my_dpi &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;threshold]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Second is audio_merger.py that it can be used to merge audio in a specific folder.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        python3 audio_merger.py input_dir_path export_file format
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;created-dataset&quot;&gt;Created Dataset&lt;/h2&gt;
+
+&lt;p&gt;Using this library for the environmental noise monitoring with a microphone and a SPL meter three different datasets were created.
+The following datasets are located in subdirectory named “dataset” and stored in simple csv files.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;DB_dataset_first_model.csv&lt;/strong&gt;. This dataset contains microphone and SPL meter samples corresponding to the same second.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DB_dataset_canarin_second_model.csv&lt;/strong&gt;.  This dataset contains microphone, SPL meter and environmental (like temperature, humidity, pression, PM ecc.) samples corresponding to the same second.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DB_dataset_canarin_third_model.csv&lt;/strong&gt;. This dataset contains microphone, SPL meter and environmental (like temperature, humidity, pression, PM ecc.) samples corresponding to the same minute.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the first and second datasets are used data from a month of sampling, while in the third are used two months’ data.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 13 Oct 2019 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/lorenzomonti/2019/InspectNoise/</link>
+        <guid isPermaLink="true">http://localhost:4000/lorenzomonti/2019/InspectNoise/</guid>
+        
+        <category>phd</category>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+  </channel>
+</rss>

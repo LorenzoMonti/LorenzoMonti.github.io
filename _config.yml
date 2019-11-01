@@ -1,1 +1,44 @@
-theme: jekyll-theme-slate
+# Site settings
+title: It's me
+description: 'Computer science Ph.D. student, guitar player and espresso addicted'
+url: 'http://lorenzomonti.github.io'
+baseurl: '/lorenzomonti'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Lorenzo Monti'
+  email: lorenzomonti42@gmail.com
+  twitter_username: _lorenzo_monti #questo è di Instagram
+  facebook_username: lorenzo.monti2
+  github_username:  LorenzoMonti
+  linkedin_username:  lorenzo-monti-155a0bb8
+  istitutional_site: https://www.unibo.it/sitoweb/lorenzo.monti20
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
