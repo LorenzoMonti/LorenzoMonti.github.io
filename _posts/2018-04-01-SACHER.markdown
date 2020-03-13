@@ -1,6 +1,6 @@
 ---
 title:  "SACHER: Smart Architecture for Cultural Heritage in Emilia-Romagna"
-date:   2019-10-13 12:00:00
+date:   2018-04-01 12:00:00
 categories: [projects]
 tags: [phd]
 ---
