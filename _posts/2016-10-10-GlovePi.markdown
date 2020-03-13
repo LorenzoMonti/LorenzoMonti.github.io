@@ -5,18 +5,17 @@ categories: [projects]
 tags: [phd]
 ---
 
-## Description
 GlovePi is a low cost and open source assistive system exploiting a wearable device in order to support 
-deaf-blind people in communication using the Malossi alphabet. More specifically, the system,
-is composed by three main low cost components, such as: (i) a gardener glove; (ii) a Raspberry Pi; 
-(iii) a MPR121 capacitive touch sensor module with expansion board. The MPR121 module 
-works as bridge between the Raspberry Pi and the sensors in the glove, allowing the data transfer. 
-Instead, the Raspberry Pi works as a hotspot wifi and as a server to transfer data to the client, 
-an android application. In this way, the deaf-blind user can use the glove to deliver messages 
-to other users, using the Malossi alphabet. The characters (and phrases) in this way created, 
-will be sent to the android application and displayed or listen. Evaluation tests have been 
-performed to measure the performance on the basis of false positive and false negative, obtaining 
-interesting results in supporting to the feasibility of the here described approach.
+deaf-blind people in communication using the Malossi alphabet. 
+
+More specifically, the system, is composed by three main low cost components, such as: (i) a gardener glove; 
+(ii) a Raspberry Pi; (iii) a MPR121 capacitive touch sensor module with expansion board. The MPR121 module 
+works as bridge between the Raspberry Pi and the sensors in the glove, allowing the data transfer. Instead, 
+the Raspberry Pi works as a hotspot wifi and as a server to transfer data to the client, an android application. 
+In this way, the deaf-blind user can use the glove to deliver messages to other users, using the Malossi alphabet. 
+The characters (and phrases) in this way created, will be sent to the android application and displayed or listen. 
+Evaluation tests have been performed to measure the performance on the basis of false positive and false negative, 
+obtaining interesting results in supporting to the feasibility of the here described approach.
 
 ## Malossi Alphabet
 The Malossi alphabet gestures allowinginteraction  and  communication  are  presses  and  pinches at different points 
