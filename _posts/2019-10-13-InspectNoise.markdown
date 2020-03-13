@@ -5,7 +5,6 @@ categories: [projects]
 tags: [phd]
 ---
 
-## Description
 InspectNoise is a real-time sound meter with A glance into single-board computer.
 The main idea is to have a low-budget device to monitor and analyze acoustic noise.
 To do this we used a Kinobo USB microphone named [Mini AKIRO](https://www.amazon.co.uk/Kinobo-Microphone-Desktops-Dictation-Software/dp/B00NSOWWIS).
