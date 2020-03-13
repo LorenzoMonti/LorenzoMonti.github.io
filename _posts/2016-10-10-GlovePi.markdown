@@ -1,0 +1,50 @@
+---
+title:  "GlovePi: a wearable prototype for deaf-blind people"
+date:   2016-10-10 12:00:00
+categories: [projects]
+tags: [phd]
+---
+
+## Description
+GlovePi is a low cost and open source assistive system exploiting a wearable device in order to support 
+deaf-blind people in communication using the Malossi alphabet. More specifically, the system,
+is composed by three main low cost components, such as: (i) a gardener glove; (ii) a Raspberry Pi; 
+(iii) a MPR121 capacitive touch sensor module with expansion board. The MPR121 module 
+works as bridge between the Raspberry Pi and the sensors in the glove, allowing the data transfer. 
+Instead, the Raspberry Pi works as a hotspot wifi and as a server to transfer data to the client, 
+an android application. In this way, the deaf-blind user can use the glove to deliver messages 
+to other users, using the Malossi alphabet. The characters (and phrases) in this way created, 
+will be sent to the android application and displayed or listen. Evaluation tests have been 
+performed to measure the performance on the basis of false positive and false negative, obtaining 
+interesting results in supporting to the feasibility of the here described approach.
+
+## Malossi Alphabet
+The Malossi alphabet gestures allowinginteraction  and  communication  are  presses  and  pinches at different points 
+of the fingers and on the top of the palm. This  last  alphabet  was  invented  by  Eugenio  Malossi,  an Italian  
+deaf-blind  teacher.  The  Malossi  alphabet  is  considered extremely intuitive, and it relies on basic touch cues. 
+In particular, letters are located in a clockwise order, over the phalanxes, as  shown  in  Figure.  
+Letters  from  A  to  O  arepressed,  and  letters  from  P  to  Z  are  pinched.  Thanks  to  its simplicity, 
+this alphabet is widely employed with children and people having cognitive impairments, who cannot learn more complex  
+communication  methods  (e.g.,  the  Lorm  or  Braille alphabets).
+
+<figure>
+    <img src="https://www.researchgate.net/profile/Silvia_Mirri/publication/318574972/figure/fig3/AS:667674631741441@1536197445052/Malossi-Alphabet-source-19_Q320.jpg" alt="malossi alphabet" width="250"/>
+    <figcaption></figcaption>
+</figure>
+
+## The Prototype
+The system architecture is composed by three main components as shown in Figure: (i) a gardener glove, without any sewings between the 
+fingersand the handbreadth has been purchased; (ii) a Raspberry Pi; (iii)a MPR121 capacitive touch sensor module with 
+expansion board. Moreover, an Android app has been developed to communicate with the server (Raspberry Pi) and display
+and listen the phases created by the deaf-blind user, using the glove, during the typing of the Malossi alphabet.
+
+<figure>
+    <img src="https://github.com/LorenzoMonti/LorenzoMonti.github.io/blob/master/images/glove.jpg" alt="GlovePi prototype" width="400"/>
+    <figcaption></figcaption>
+</figure>
+
+
+For a complete reading of the project you can find the link in Refence section.
+
+## References
+[GlovePi](https://ieeexplore.ieee.org/abstract/document/7983285)
