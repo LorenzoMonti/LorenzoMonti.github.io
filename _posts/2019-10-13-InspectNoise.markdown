@@ -82,3 +82,8 @@ The following datasets are located in subdirectory named "dataset" and stored in
 3. __DB_dataset_canarin_third_model.csv__. This dataset contains microphone, SPL meter and environmental (like temperature, humidity, pression, PM ecc.) samples corresponding to the same minute.
 
 In the first and second datasets are used data from a month of sampling, while in the third are used two months' data.
+
+## Citation
+
+Monti, L.; Vincenzi, M.; Mirri, S.; Pau, G.; Salomoni, P. RaveGuard: A Noise Monitoring Platform Using Low-End Microphones and Machine Learning. Sensors 2020, 20, 5583. 
+[DOI](https://doi.org/10.3390/s20195583)
