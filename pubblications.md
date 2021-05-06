@@ -8,6 +8,12 @@ title: Pubblications
 <div id="journal">
   <p>
   <h2>Journal</h2>
+      <br>
+
+      <h4><strong>Sensors 2020</strong><br>
+      <a href="https://www.mdpi.com/1424-8220/20/19/5583" target="_blank">RaveGuard: A Noise Monitoring Platform Using Low-End Microphones and Machine Learning</a> <br>
+      <span style="font-weight: 400;">Lorenzo Monti</span>, Mattia Vincenzi, Silvia Mirri, Giovanni Pau, Paola Salomoni
+      </h4>
 
       <br>
 
@@ -29,11 +35,18 @@ title: Pubblications
 <div id="conference">
   <p>
   <h2>Conference</h2>
+    
+    <br>
+
+    <h4><strong>ICDIP 2020</strong><br>
+    <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11519/1151904/DeepClass--edge-based-class-occupancy-detection-aided-by-deep/10.1117/12.2572948.short?SSO=1" target="_blank">DeepClass: edge based class occupancy detection aided by deep learning and image cropping</a> <br>
+    Rita Tse, <span style="font-weight: 400;">Lorenzo Monti</span>, Marcus Im, Silvia Mirri, Giovanni Pau, Paola Salomoni
+    </h4>
 
     <br>
 
     <h4><strong>ICCCN 2019</strong><br>
-    <a href="" target="_blank">What Do Patients Tell Doctors on the Internet? Ask AI How To Valorize Online Medical Conversations</a> <br>
+    <a href="https://ieeexplore.ieee.org/document/8847078" target="_blank">What Do Patients Tell Doctors on the Internet? Ask AI How To Valorize Online Medical Conversations</a> <br>
     Luca Casini, Giovanni Delnevo, Silvia Mirri, <span style="font-weight: 400;">Lorenzo Monti</span>, Catia Prandi, Marco Roccetti, Paola Salomoni
     </h4>
 
