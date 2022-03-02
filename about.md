@@ -12,7 +12,7 @@ During these years, I have also developed a great passion for non-standard inter
 </p>
 
 <p>
-I volunteer for the association <a href="https://www.permessonegato.it/" target="_blank">Permesso Negato</a> against non-consensual pornography and for the association <a href="https://www.dnadellamusica.com/">DNA della musica</a> with which we "play" fragments of genome. Moreover, during my spare time I'm working on projects regarding Edge ML, mobile/wearable computing and context-aware computing. 
+I volunteer for the association <a href="https://www.permessonegato.it/" target="_blank">Permesso Negato</a> against non-consensual pornography and for the association <a href="https://www.dnadellamusica.com/" target="_blank">DNA della musica</a> with which we "play" fragments of genome. Moreover, during my spare time I'm working on projects regarding Edge ML, mobile/wearable computing and context-aware computing. 
 </p>
 
 <p style="text-align: justify;"> </p>
