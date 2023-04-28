@@ -1,0 +1,50 @@
+---
+title:  "Pyresonant: music interface to play videogames"
+date:   2020-06-24 12:00:00
+categories: [projects]
+tags: [phd]
+---
+
+Pyresonant allows the user to use any stringed instrument as a pc keyboard. This is possible thanks to the mapping of the notes with the keys.
+
+## Download and install
+
+This project is written in Python 3, so make sure you have it installed in your machine.
+After that you can download this repository, open terminal and type:
+```bash
+git clone https://github.com/LorenzoMonti/pyresonant.git
+```
+
+## Project's dependecies
+
+```bash
+cd pyresonant/
+pip3 install -r requirements.txt
+```
+## Launch the main script
+
+Now you can run the project:
+
+```bash
+python3 pyresonant.py --input 1 --mappingcsv ./example_mapping.csv
+```
+change (or create a new one) csv file according to your needs.
+
+
+## CLI (command line interface)
+
+| Flag | Description |
+| --- | --- |
+| `--input` | select your audio input device  |
+| `--volthresh` | select volume threshold |
+| `--mapping` | map notes with keys with this pattern: note-key,note-key |
+| `--mappingcsv` | add the path of the csv with this pattern: note,key. You can find an example in *example_mapping.csv* |
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Citation
+
+Monti, L.; Vincenzi, M.; Mirri, S.; Pau, G.; Salomoni, P. RaveGuard: A Noise Monitoring Platform Using Low-End Microphones and Machine Learning. Sensors 2020, 20, 5583. 
+[DOI](https://doi.org/10.3390/s20195583)
