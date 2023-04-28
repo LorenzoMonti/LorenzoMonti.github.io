@@ -10,6 +10,13 @@ title: Pubblications
   <h2>Journal</h2>
       <br>
 
+      <h4><strong>Sensors 2022</strong><br>
+      <a href="[https://www.mdpi.com/1424-8220/22/10/3692]" target="_blank">Edge-based transfer learning for classroom occupancy detection in a smart campus context</a> <br>
+      <span style="font-weight: 400;">Lorenzo Monti</span>, Rita Tse, Su-Kit Tang, Silvia Mirri, Giovanni Delnevo, Vittorio Maniezzo, Paola Salomoni
+      </h4>
+      
+      <br>
+
       <h4><strong>Sensors 2020</strong><br>
       <a href="https://www.mdpi.com/1424-8220/20/19/5583" target="_blank">RaveGuard: A Noise Monitoring Platform Using Low-End Microphones and Machine Learning</a> <br>
       <span style="font-weight: 400;">Lorenzo Monti</span>, Mattia Vincenzi, Silvia Mirri, Giovanni Pau, Paola Salomoni
@@ -35,7 +42,15 @@ title: Pubblications
 <div id="conference">
   <p>
   <h2>Conference</h2>
-    
+    <br>
+
+    <h4><strong>Software and Cyberinfrastructure for Astronomy VII - 2022</strong><br>
+    <a href="" target="_blank">A middleware to confine obsolescence</a> <br>
+    Marco Buttu, Giuseppe Carboni, Antonietta Fara, Matteo Fiorentini, Marco Landoni, Carlo Migoni, <span style="font-weight: 400;">Lorenzo Monti</span>, Andrea Orlati, Sergio Poppi, Simona   Righini, Fabio R Vitello
+    </h4>
+
+    <br>
+  
     <br>
 
     <h4><strong>ICDIP 2020</strong><br>
