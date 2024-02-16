@@ -8,7 +8,7 @@ title: About
 
 </p>
 <p style="text-align: justify;">
-During these years, I have also developed a great passion for non-standard interfaces, especially music, wearable, and haptic ones. I'm currently a post-doc researcher at INAF, I have worked on the control software for INAFs radio telescopes (Medicina, Noto and Sardinia Radio Telescope) for about two year. Now, I'm working on machine learning and deep learning models applied to the RR Lyrae stars time-series photometry. 
+During these years, I have also developed a great passion for non-standard interfaces, especially music, wearable, and haptic ones. I'm currently a post-doc researcher at INAF, I have worked on the control software for INAFs radio telescopes (Medicina, Noto and Sardinia Radio Telescope) for about two year. Now, I'm working on Machine Learning and Deep Learning models applied to the RR Lyrae stars time-series photometry. 
 </p>
 
 <p>
