@@ -43,8 +43,3 @@ change (or create a new one) csv file according to your needs.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Citation
-
-Monti, L.; Vincenzi, M.; Mirri, S.; Pau, G.; Salomoni, P. RaveGuard: A Noise Monitoring Platform Using Low-End Microphones and Machine Learning. Sensors 2020, 20, 5583. 
-[DOI](https://doi.org/10.3390/s20195583)
