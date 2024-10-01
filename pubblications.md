@@ -9,7 +9,21 @@ title: Pubblications
   <p>
   <h2>Journal</h2>
       <br>
-
+      
+      <h4><strong>Sensors 2024</strong><br>
+      <a href="[https://www.mdpi.com/1424-8220/24/16/5203]" target="_blank">Leveraging Deep Learning for Time-Series Extrinsic Regression in Predicting the Photometric Metallicity of Fundamental-Mode RR Lyrae Stars</a> <br>
+      <span style="font-weight: 400;">Lorenzo Monti</span>, Tatiana Muraveva, Gisella Clementini and Alessia Garofalo
+      </h4>
+      
+      <br>
+      
+      <h4><strong>Astronomy and Astrophysics 2024</strong><br>
+      <a href="[https://www.aanda.org/articles/aa/abs/2024/06/aa49763-24/aa49763-24.html]" target="_blank">Discovery of a dormant 33 solar-mass black hole in pre-release Gaia astrometry</a> <br>
+      Panuzzo, Pasquale and Mazeh, Tsevi and Arenou, Fr´ed´eric and Holl, Berry and Caffau, Elisabetta and Jorissen, A and Babusiaux, C and Gavras, P and Sahlmann, J and Bastian, U and others
+      </h4>
+      
+      <br>
+      
       <h4><strong>Sensors 2022</strong><br>
       <a href="[https://www.mdpi.com/1424-8220/22/10/3692]" target="_blank">Edge-based transfer learning for classroom occupancy detection in a smart campus context</a> <br>
       <span style="font-weight: 400;">Lorenzo Monti</span>, Rita Tse, Su-Kit Tang, Silvia Mirri, Giovanni Delnevo, Vittorio Maniezzo, Paola Salomoni
